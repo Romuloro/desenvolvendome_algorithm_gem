@@ -16,6 +16,6 @@ def maximizeArray(array, n)
     return soma = array.sum
 end
 
-arr = [-2, 0, 5, -1, 2]
+#arr = [-2, 0, 5, -1, 2]
 
-p maximizeArray(arr, 4)
+#p maximizeArray(arr, 4)
