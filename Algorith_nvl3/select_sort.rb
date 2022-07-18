@@ -11,7 +11,3 @@ def select_sort (array)
     end
     return array
 end
-
-array_teste = [64, 25, 12, 22, 11]
-array_sort = select_sort(array_teste)
-p array_sort
