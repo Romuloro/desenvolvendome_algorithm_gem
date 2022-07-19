@@ -24,9 +24,3 @@ def minimumSumProductTwoArrays(arr1, arr2, k)
     end
     return res - diff
 end
-
-a = [ 2, 3, 4, 5, 4 ]
-b = [ 3, 4, 2, 3, 2 ]
-k = 3
-resp = minimumSumProductTwoArrays(a, b, k)
-p resp
