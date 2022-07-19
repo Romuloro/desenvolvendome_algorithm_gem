@@ -1,4 +1,4 @@
-def select_sort (array)
+def selectSort (array)
     n = (array.length) -1
     for i in 0..n
         idx = i
