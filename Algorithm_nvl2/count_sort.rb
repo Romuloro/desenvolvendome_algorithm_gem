@@ -29,9 +29,3 @@ def countSort(array)
     return array
 end
 
-
-arr = [-5, -10, 0, -3, 8, 5, -1, 10]
-ans = countSort(arr)
-p ans
-
-
