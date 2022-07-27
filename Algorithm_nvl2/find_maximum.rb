@@ -26,11 +26,3 @@ def findMaximum(array1, array2, array3)
         end
     end
 end
-
-stack1 = [ 3, 2, 1, 1, 1 ]
-stack2 = [ 4, 3, 2 ]
-stack3 = [ 1, 1, 4, 1 ]
-
-find = findMaximum(stack1, stack2, stack3)
-
-p find
