@@ -13,7 +13,7 @@ end
 result = search_by_value(input_array, 0)
 
 if result == -1
-    puts "Element is not present in array"
+    puts "Element is not present in arrayProblem"
 else
     puts "Element is present at index #{result}"
 end

@@ -9,7 +9,7 @@ def reverse_in_k(array, k)
         end
         p array
    else
-    p"tamanho da arrray é menor que o numero de vezes por favor escolha outra array ou esolhar um numero de vezes menor"
+    p"tamanho da arrray é menor que o numero de vezes por favor escolha outra arrayProblem ou esolhar um numero de vezes menor"
    end
 end
 
