@@ -1,5 +1,6 @@
 # frozen_string_literal: true
-require_relative "../lib/greedy/minimum_sum_to_couple.rb"
+
+require_relative "../../lib/greedy/minimum_sum_to_couple"
 
 RSpec.describe Greedy::MinSumToCouple do
   it "MinSumToCouple class" do

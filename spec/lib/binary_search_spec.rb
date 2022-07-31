@@ -1,6 +1,8 @@
-require_relative "../lib/search/binary_search.rb"
+# frozen_string_literal: true
 
-RSpec.describe "Binary Search class" do
+require_relative "../../lib/search/binary_search.rb"
+
+RSpec.describe Search::BinarySearch do
   it "Binary Search class" do
     arr = [1, 11, 21, 31, 41, 51, 61, 71, 81, 91]
     ch = 61

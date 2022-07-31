@@ -1,11 +1,15 @@
-def find_three(array)
-    max_array = []
-    3.times do
-    max_value = array.max
-    max_array << max_value
-    array.delete(max_value)
-    end
-    p max_array
-end
+# frozen_string_literal: true
 
-find_three([1, -5, 7, 9, -34, 7, 9])
+module ArrayProblem
+  class FindThree
+    def run(array)
+      max_array = []
+      3.times do
+        max_value = array.max
+        max_array << max_value
+        array.delete(max_value)
+      end
+      max_array
+    end
+  end
+end

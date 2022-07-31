@@ -1,6 +1,8 @@
-require_relative "../lib/greedy/maximize_array.rb"
+# frozen_string_literal: true
 
-RSpec.describe "Maximize arrayProblem function" do
+require_relative "../../lib/greedy/maximize_array"
+
+RSpec.describe Greedy::MaximizeArray do
   it "Maximize arrayProblem function run" do
     arr = [-2, 0, 5, -1, 2]
     max_array = Greedy::MaximizeArray.new.run(arr, 4)

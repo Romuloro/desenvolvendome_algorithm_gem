@@ -1,19 +1,12 @@
-input_array = [10, 20, 80, 30, 60, 50, 110, 100, 130, 170]
+# frozen_string_literal: true
 
-
-def search_by_value (array, choice)
-    array.each do |value|
-        if value == choice
-            return array.index(value)
-        end
-    end   
-    return -1
-end
-
-result = search_by_value(input_array, 0)
-
-if result == -1
-    puts "Element is not present in arrayProblem"
-else
-    puts "Element is present at index #{result}"
+module Search
+  class LinearSearch
+    def run(array, choice)
+      array.each do |value|
+        return array.index(value) if value == choice
+      end
+      -1
+    end
+  end
 end
