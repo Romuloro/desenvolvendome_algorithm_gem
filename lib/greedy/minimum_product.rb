@@ -10,7 +10,7 @@ module Greedy
       count_zero = 0
       prod = 1
 
-      array[0] if n == 1
+      return array[0] if n == 1
 
       (0..n).each do |i|
         if (array[i]).zero?
