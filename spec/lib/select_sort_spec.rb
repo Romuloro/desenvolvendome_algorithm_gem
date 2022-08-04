@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../lib/sort/select_sort.rb"
+require_relative "../../lib/sort/select_sort.rb"
 
 RSpec.describe "Select sort array function" do
   it "Select sort array function" do
