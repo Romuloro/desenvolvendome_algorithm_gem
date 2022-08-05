@@ -5,7 +5,7 @@ module Sort
     def run(array)
       n = array.length - 1
 
-      if n > 0
+      if n.positive?
         mid = n / 2
         mid.floor
         l = array[0..mid]
