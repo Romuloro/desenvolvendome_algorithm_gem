@@ -11,13 +11,11 @@ module ArrayProblem
         positive += 2 while (positive < n) && (array[positive] >= 0)
         negative += 2 while (negative < n) && (array[negative] <= 0)
 
-        if (positive < n) && (negative < n)
-          temp = array[positive]
-          array[positive] = array[negative]
-          array[negative] = temp
-        else
-          break
-        end
+        break unless (positive < n) && (negative < n)
+
+        temp = array[positive]
+        array[positive] = array[negative]
+        array[negative] = temp
       end
       array
     end
