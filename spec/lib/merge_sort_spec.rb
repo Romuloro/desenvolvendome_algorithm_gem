@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../../lib/sort/merge_sort.rb"
+require_relative "../../lib/sort/merge_sort"
 
 RSpec.describe "Merge sort array function" do
   it "Merge sort array function" do
