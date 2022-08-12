@@ -24,5 +24,4 @@ RSpec.describe "DateProblem::FindMinute" do
     missing_number = DateProblem::FindMinute.new.run(time, x)
     expect(missing_number).to eq("05:33")
   end
-
 end
