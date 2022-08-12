@@ -3,7 +3,7 @@
 require_relative "../../lib/greedy/minimize_cash_flow"
 
 RSpec.describe "Greedy::JobSequencingProblem" do
-  it "Job Sequencing Problem return c a e " do
+  it "Greedy::MinimizeCashFlow" do
     graph = [ [0, 1000, 2000],
               [0, 0, 5000],
               [0, 0, 0] ]
