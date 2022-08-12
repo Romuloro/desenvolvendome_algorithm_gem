@@ -3,31 +3,6 @@
 module Greedy
   class MinimizeCashFlow
     $n = 3
-    $result = []
-
-    def getMin(array)
-      minInd = 0
-      (1..$n - 1).each do |i|
-        minInd = i if array[i] < array[minInd]
-      end
-      minInd
-    end
-
-    def getMax(array)
-      maxInd = 0
-      (1..$n - 1).each do |i|
-        maxInd = i if array[i] < array[maxInd]
-      end
-      maxInd
-    end
-
-    def minOf2(x, y)
-      if x < y
-        x
-      else
-        y
-      end
-    end
 
     def minCashFlowRec(amount)
       result_ = []
