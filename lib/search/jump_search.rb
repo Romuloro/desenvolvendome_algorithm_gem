@@ -7,7 +7,7 @@ module Search
       step = Math.sqrt(n)
       prev = 0
 
-      #arr_step = ([step, n].min - 1).to_i
+      # arr_step = ([step, n].min - 1).to_i
 
       while array[([step, n].min - 1).to_i] < _choice
         prev = step
