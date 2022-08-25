@@ -1,10 +1,7 @@
+# frozen_string_literal: true
+
 module StringProblem
   class GroupWord
-    def run(string)
-      dict = {}
-      #for word in string
-
-      #end
-    end
+    def run(word); end
   end
 end
